@@ -1,0 +1,297 @@
+body{
+    background-color: rgb(200, 241, 158);
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(253, 195, 213);
+    border: 1px solid  rgb(200, 241, 158);
+    border-radius: 50px;
+    padding: 12px 24px;
+    max-width: 900px;
+    margin: 20px auto;
+    box-shadow: 0 8px 24px rgb(253, 195, 213);
+}
+
+.logo{
+    color: rgb(140, 123, 99);
+    text-shadow:0 3px 4px rgb(200, 241, 158) ;
+}
+
+
+
+.hero{
+    background-image :
+    linear-gradient(rgb(200, 241, 158,0.45), rgb(253, 195, 213, 0.45)),
+    url(bunga.png) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 420px;
+    padding: 80px 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: rgb(63, 58, 51);
+    text-shadow: 0 8px 6px rgb(253, 195, 213);
+    border-radius: 50px;
+}
+
+.about{
+    border: 1px solid  rgb(253, 195, 213);
+    border-radius: 30px;
+    background-color: rgb(253, 195, 213);
+    padding: 50px;
+    
+}
+
+.about p{
+    color:  rgb(60, 55, 49) ;
+    text-align: center;
+    border: 1px solid  rgb(200, 241, 158);
+    background-color:  rgb(200, 241, 158);
+    border-radius: 30px;
+    box-shadow: 0 8px 24px  rgb(200, 241, 158);
+    
+}
+
+.get{
+    text-align: center;
+    color:  rgb(60, 55, 49);
+    border: 1px solid  rgb(200, 241, 158);
+    background-color:  rgb(200, 241, 158);
+    border-radius: 50px;
+    box-shadow: 0 8px 20px  rgb(200, 241, 158);
+    text-shadow: 0 7px 5px rgb(253, 195, 213);
+    padding: 12px 24px;
+}
+
+.me{
+    border: 1px solid  rgb(253, 195, 213);
+    border-radius: 30px;
+    background-color: rgb(253, 195, 213);
+    padding: 50px;
+}
+
+.first{
+     text-align: center;
+    color:  rgb(60, 55, 49);
+    border: 1px solid  rgb(200, 241, 158);
+    background-color:  rgb(200, 241, 158);
+    border-radius: 50px;
+    box-shadow: 0 8px 20px  rgb(200, 241, 158);
+    text-shadow: 0 7px 5px rgb(253, 195, 213);
+    padding: 12px 24px;
+}
+
+.me p{
+    color:  rgb(60, 55, 49) ;
+    text-align: center;
+    border: 1px solid  rgb(200, 241, 158);
+    background-color:  rgb(200, 241, 158);
+    border-radius: 20px;
+    box-shadow: 0 8px 24px  rgb(200, 241, 158);
+}
+
+.love{
+    border: 1px solid  rgb(253, 195, 213);
+    border-radius: 30px;
+    background-color: rgb(253, 195, 213);
+    padding: 50px;
+}
+
+.favorit{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.little{
+    text-align: center;
+    color:  rgb(60, 55, 49);
+    border: 1px solid  rgb(200, 241, 158);
+    background-color:  rgb(200, 241, 158);
+    border-radius: 50px;
+    box-shadow: 0 8px 20px  rgb(200, 241, 158);
+    text-shadow: 0 7px 5px rgb(253, 195, 213);
+    padding: 12px 24px;
+}
+
+.box{
+    color:  rgb(60, 55, 49);
+    border: 1px solid  rgb(200, 241, 158);
+    background-color:  rgb(200, 241, 158);
+    border-radius: 50px;
+    box-shadow: 0 8px 20px  rgb(200, 241, 158);
+    text-shadow: 0 7px 5px rgb(253, 195, 213);
+    padding: 12px 24px;
+}
+
+.hobi{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.kotak{
+    width: 310px;
+    background-color: rgb(200, 241, 158);
+    border: 3px solid  rgb(253, 195, 213);  
+    border-radius: 25px;    
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 8px 20px  rgb(253, 195, 213) ;
+}
+
+.ho{
+    text-align: center;
+    color:  rgb(60, 55, 49);
+    border: 1px solid  rgb(200, 241, 158);
+    background-color: rgb(253, 195, 213);
+    border-radius: 50px;
+    box-shadow: 0 8px 20px  rgb(253, 195, 213);
+    text-shadow: 0 8px 5px  rgb(200, 241, 158);
+    padding: 12px 24px;
+}
+
+.kotak img{
+    width: 100%;
+    height: 330px;
+    object-fit: cover;      
+    border-radius: 15px;     
+    display: block;
+}
+
+.kotak p {
+    margin: 18px 0 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color:  rgb(60, 55, 49);            
+    text-shadow: 3px 3px 5px rgb(253, 195, 213);
+}
+
+.tempat{
+      text-align: center;
+    color:  rgb(60, 55, 49);
+    border: 1px solid  rgb(200, 241, 158);
+    background-color: rgb(253, 195, 213);
+    border-radius: 50px;
+    box-shadow: 0 8px 20px  rgb(253, 195, 213);
+    text-shadow: 0 8px 5px  rgb(200, 241, 158);
+    padding: 12px 24px;
+}
+
+
+.place{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.pantai{
+    width: 310px;
+    background-color: rgb(200, 241, 158);
+    border: 3px solid  rgb(253, 195, 213);  
+    border-radius: 50px;    
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 8px 20px  rgb(253, 195, 213) ;
+    padding: 15px;
+}
+
+.pantai img{
+    width: 100%;
+     height: 300px; 
+     object-fit: cover;
+    border-radius: 35px;
+    display: block;
+}
+
+.pantai p {
+    margin: 12px 0 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(60, 55, 49) ;
+}
+
+.sosmed{
+    border: 1px solid  rgb(253, 195, 213);
+    border-radius: 30px;
+    background-color: rgb(253, 195, 213);
+    padding: 50px;
+}
+
+.find{
+    text-align: center;
+    color:  rgb(60, 55, 49);
+    border: 1px solid  rgb(200, 241, 158);
+    background-color:  rgb(200, 241, 158);
+    border-radius: 50px;
+    box-shadow: 0 8px 20px  rgb(200, 241, 158);
+    text-shadow: 0 7px 5px rgb(253, 195, 213);
+    padding: 12px 24px;
+}
+
+.sosial{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.link{
+      color:  rgb(60, 55, 49);
+    border: 1px solid  rgb(200, 241, 158);
+    background-color:  rgb(200, 241, 158);
+    border-radius: 50px;
+    box-shadow: 0 8px 20px  rgb(200, 241, 158);
+    text-shadow: 0 7px 5px rgb(253, 195, 213);
+    padding: 12px 24px;
+}
+
+footer{
+      background-color: #fc8cdc;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    border: 2px solid #ff82ea;
+    border-top: none;
+}
+
+#btnTop{
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    width: 52px;
+    height: 52px;
+    border: 2px solid rgb(200, 241, 158);
+    border-radius: 50%;
+    background-color: rgb(253, 195, 213);
+    color: rgb(140, 123, 99);
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 6px 16px rgb(253, 195, 213);
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: opacity 0.3s, transform 0.3s, visibility 0.3s;
+}
+
+#btnTop.show{
+    opacity: 0.5;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+#btnTop.show:hover{
+    opacity: 1;
+    transform: translateY(-4px);
+    background-color: rgb(200, 241, 158);
+}
